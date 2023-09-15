@@ -1,0 +1,23 @@
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+    padding-top: 8rem;
+    padding-right: 5rem;
+    background: url('./logo.jpg');
+    -webkit-background: url('./logo.jpg');
+    -moz-background: url('./logo.jpg');
+    -o-background: url('./logo.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    z-index: 1000;
+    transition: all 200ms;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -o-transition: all 200ms;
+}

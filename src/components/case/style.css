@@ -1,0 +1,55 @@
+.case {
+    position: relative;
+    margin-top: 70rem;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.case>.heading {
+    padding-right: 5rem;
+    text-align: right;
+}
+
+.case>.sub-heading {
+    padding-right: 5rem;
+    text-align: right;
+}
+
+.case-content {
+    margin-top: 7rem;
+    margin-left: 65%;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+
+.case-btn {
+    margin-top: 4rem;
+}
+
+@media (max-width: 1200px) {
+    .case-content {
+        margin-top: 2rem;
+        margin-left: 67%;
+        font-size: 1rem;
+        margin-left: 48%;
+    }
+}
+
+@media (max-width: 996px) {
+    .case>.heading {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .case>.sub-heading {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .case-content {
+        margin: 0;
+        margin-top: 2rem;
+    }
+}

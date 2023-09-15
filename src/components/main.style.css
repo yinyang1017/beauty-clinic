@@ -1,0 +1,31 @@
+.btn {
+    border: none;
+    background-color: transparent;
+    color: #586166;
+    font-family: 'Cormorant Infant', serif;
+}
+
+
+.heading {
+    position: relative;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 6rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.sub-heading {
+    font-family: "Yu Gothic", serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: center;
+    letter-spacing: 0.6rem;
+    margin-top: -0.5rem;
+}
+
+@media (max-width: 576px) {
+    .heading {
+        font-size: 4rem;
+    }
+}

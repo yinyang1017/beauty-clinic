@@ -1,0 +1,53 @@
+.header-nav {
+    position: relative;
+    margin-top: 2.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Cormorant Infant', serif;
+    z-index: 10000;
+}
+
+.header-nav img {
+    width: 2.5 vw;
+    margin-left: 5vw;
+}
+
+.header-nav .nav-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container h1 {
+    display: inline-block;
+    padding-top: 1px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+    line-height: 1.2vw;
+}
+
+.header-nav .nav-bar {
+    margin-right: 5vw;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar li {
+    margin: 0 1vw;
+}
+
+.nav-bar li .nav-link {
+    text-decoration: none;
+    font-size: 1.2vw;
+    letter-spacing: 0.1vw;
+    cursor: default;
+    transition: all 200ms;
+}
+
+.nav-link:hover {
+    opacity: 1 !important;
+}

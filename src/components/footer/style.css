@@ -1,0 +1,113 @@
+.footer {
+    position: relative;
+    top: 50rem;
+    background: url('./bg-landing2.jpg');
+    background-size: cover;
+    height: 640px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10rem;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.footer-logo .sub-heading {
+    padding-top: 2rem;
+    font-weight: 800;
+}
+
+.address {
+    font-family: 'Yusei Magic', sans-serif;
+    letter-spacing: 3px;
+}
+
+.footer-menu {
+    width: 30%;
+}
+
+.footer-menu ul {
+    display: block;
+    list-style-type: none;
+}
+
+.footer-item {
+    display: block;
+    text-decoration: none;
+    font-family: 'Cormorant Infant', serif;
+    margin: 0px 0 2rem 0;
+    font-size: 1.7rem;
+    letter-spacing: 5px;
+    font-weight: 500;
+    transition: all 100ms;
+    cursor: default;
+}
+
+.footer-item:hover {
+    opacity: 1 !important;
+    font-size: 1.8rem;
+}
+
+
+.contact a {
+    display: flex;
+    align-items: center;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 2rem;
+}
+
+.follow {
+    padding-top: 6rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 2rem;
+}
+
+.follow span {
+    margin-right: 20px;
+}
+
+span.text {
+    margin-right: 60px;
+    font-size: 1.5rem;
+}
+
+.follow a {
+    transition: all 500ms;
+}
+
+.follow a:hover {
+    opacity: 0.5;
+}
+
+@media (max-width: 1200px) {
+    .footer {
+        top: 20rem;
+        display: block;
+    }
+
+    .footer-logo {
+        flex-direction: column;
+        text-align: center;
+        height: 300px;
+    }
+
+    .footer-menu {
+        padding-top: 3rem;
+        width: 100%;
+        text-align: center
+    }
+
+    .contact {
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

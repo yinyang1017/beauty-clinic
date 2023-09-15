@@ -1,0 +1,49 @@
+.about {
+    position: relative;
+    width: 90%;
+    margin: 120vh 5% 0 5%;
+}
+
+.content {
+    padding-top: 8rem;
+    position: relative;
+    left: 33vw;
+    min-width: 40%;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+
+.about-btn {
+    margin-top: 4rem;
+    position: relative;
+    left: 39vw;
+    border: none;
+}
+
+
+@media (max-width: 576px) {
+    .content {
+        font-size: 0.5rem;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .content {
+        left: 4vw;
+        width: 100%;
+    }
+
+    .about-btn {
+        left: 11vw;
+
+    }
+}
